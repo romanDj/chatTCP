@@ -45,7 +45,7 @@ namespace chatServer
 
                 server.BroadcastMessage(message, this.Id);
                 Console.WriteLine(message);
-                SendMessage("Перечень возомжных вопросов: \n\t" 
+                SendMessage("Перечень возможных вопросов: \n\t" 
                     + String.Join("\n\t", asks.Keys)
                     + "\nКоманды:\n\tучастники\n\tпока");
 
